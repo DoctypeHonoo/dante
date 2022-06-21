@@ -9,33 +9,21 @@
 
 ## Motivation : 
 
-Le Lemin est un projet de milieu d'année à Epitech à réaliser à 4, dont le principe est de créer un algorithme qui va calculer la manière la plus rapide pour que des fourmis arrive d'une certaine zone de la fourmilière à une autre, sachant qu'elles ne peuvent pas être plus d'une dans une "pièce" de la foumilière en même temps.
+Le Lemin est un projet de milieu d'année à Epitech à réaliser en duo, dont le principe est de créer un générateur et un solveur de labyrinthe.
 
 ---
 
 ## Description :
-qu
-La fourmilière est donc représenté avec des pièces, connecté entre elles par des tunnels. Si deux pièces sont relié par un tunnel, alors une fourmi peut naviguer entre celles-ci.
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174772818-a1645ccd-dd43-405d-9115-6b88a4f94210.png">
-</p>
-Le programme va tout d'abord prendre un fichier contenant plusieurs informations en paramètre, et va l'analyser afin de ne garder que ce qu'il souhaite : 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174781673-d3e96357-fca7-47b4-8070-3cd3afe871a2.png">
-</p>
-Dans cette exemple, le premier chiffre correspond au nombre de fourmi, les lignes commençant par un "#" sont des commentaires, celles commençant par "##" sont les pièces de départ et d'arrivée. Pour finir les ligne avec trois chiffres sont les pièces (le premier chiffre correspond au nom de la piece et les deux suivants sont sa position) et les lignes contenant un "-" sont les tunnels qui indique les passages entre les pièces (les chiffres avant et après le "-" sont les noms des pièces).
 
-Après cela, le but du programme va donc être d'afficher les données recupérées dans un certain ordre, suivis de tout les mouvements nécessaires afin que les fourmis atteignent leur destination.
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174784133-95516d73-df2e-4450-bf3d-541f4dc39b25.png">
-</p>
+Le but de ce projet est de générer des labyrinthes (dans un temps imparti), les résoudre (dans un temps imparti) et afficher la solution.
+Le projet va donc être séparé en deux majeurs parties, en premier la création des labyrinthes, et en deuxième leur résolution. 
 
 ---
 
 ## Fonctions Autorisées : 
 
-- read, write, malloc, free, getline
+- Fonctions système
+- libC
 
 ---
 
