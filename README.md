@@ -31,16 +31,20 @@ Le projet va donc être séparé en deux majeurs parties, en premier la créatio
 
 Ouvrez un terminal et dirigez vous ou vous souhaitez que le projet soit installé, puis exécutez les commandes suivantes : 
 ```bash
-$ git clone git@github.com:DoctypeHonoo/lemin.git
-$ cd lemin
+$ git clone git@github.com:DoctypeHonoo/dante.git
+$ cd dante
 $ make
 ```
-Le binaire se trouvera alors à la racine du projet, et il vous suffira de le lancer comme ceci : 
+Les binaires se trouveront alors dans leur dossiers respectifs, et il vous suffira de les lancer comme ceci : 
 ```bash
-$ ./lem_in [fichier]
+$ ./generator/generator x y [perfect]
+$ ./solver fichier
 ```
+Pour le générateur, les x et y corresponde à la taille qu'aura le labyrinthe, et si perfect est ajouter en dernier paramètre, alors le labyrinthe n'aura qu'une seul et unique solution.
+Pour le solveur il suffit de donner un fichier contenant un labyrinthe créé par le generateur.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174784855-25ca060b-0305-43a5-ae40-384112362879.png">
+  <img src="https://user-images.githubusercontent.com/91092610/174789493-da2506b8-2dc9-4906-8013-61e1f6a96a81.png">
+  <img src="https://user-images.githubusercontent.com/91092610/174789673-22d3fc90-8805-4a1a-897e-938168f02e99.png">
 </p>
 
 ---
