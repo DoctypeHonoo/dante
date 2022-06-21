@@ -40,8 +40,6 @@ Les binaires se trouveront alors dans leur dossiers respectifs, et il vous suffi
 $ ./generator/generator x y [perfect]
 $ ./solver fichier
 ```
-Pour le générateur, les x et y corresponde à la taille qu'aura le labyrinthe, et si perfect est ajouter en dernier paramètre, alors le labyrinthe n'aura qu'une seul et unique solution.
-Pour le solveur il suffit de donner un fichier contenant un labyrinthe créé par le generateur.
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91092610/174789493-da2506b8-2dc9-4906-8013-61e1f6a96a81.png">
   <img src="https://user-images.githubusercontent.com/91092610/174789673-22d3fc90-8805-4a1a-897e-938168f02e99.png">
@@ -51,8 +49,8 @@ Pour le solveur il suffit de donner un fichier contenant un labyrinthe créé pa
 
 ## Comment l'utiliser ? : 
 
-Notre lemin possède un système de parsing complet mais il ne possède malheureusement pas encore l'algorithme qui va permettre de calculer l'itinéraire des fourmis.
-
+Notre Dante possède un générateur fonctionnel ainsi qu'un solveur fonctionnel. Pour le générateur, les x et y corresponde à la taille qu'aura le labyrinthe, et si perfect est ajouter en dernier paramètre, alors le labyrinthe n'aura qu'une seul et unique solution. 
+Pour le solveur il suffit de donner un fichier contenant un labyrinthe créé par le generateur.
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91092610/174785200-495420df-b660-46d6-821c-bf4df6e19674.png">
+  <img src="https://user-images.githubusercontent.com/91092610/174790285-3fad53d9-22a8-4f54-bc2d-485c487df10b.png">
 </p>
